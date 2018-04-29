@@ -1,0 +1,26 @@
+#ifndef COMMON_H
+#define COMMON_H
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+#include <cstdio>
+#include <cmath>
+#include <random>
+#include <list>
+#include <stack>
+#include <omp.h>
+#include <cassert>
+#include <algorithm>
+#include <tuple>
+#include <sys/time.h>
+#include "initial/loop_initial.h"
+#include "initial/worm_initial.h"
+#include "utils/bit_print.h"
+#include "utils/statistic.h"
+#include "utils/move.h"
+#include "utils/asy_plot.h"
+#include "utils/convert.h"
+#include "utils/fft.h"
+std::mt19937 mtrand(0);
+std::mt19937_64 mtrand64(0);
+#endif
